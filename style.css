@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,400&family=Asap:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,700;1,800&family=Roboto:ital,wght@0,400;1,100;1,300;1,700&family=Yanone+Kaffeesatz&display=swap');
+
+
+* {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  /* font  */
+
+  font-family: 'Aleo', serif;
+font-family: 'Asap', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header {
+  background-color: #9d8c76;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  font-weight: 900px;
+  border-bottom: 10px soild #9d8c76;
+  border-bottom-right-radius: 10em;
+  border-top-right-radius: 8em;
+}
+.logo {
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 800px;
+  color: white;
+}
+sub {
+  font-size: 15px !important;
+  font-family: monospace;
+}
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500px;
+  padding-left: 30px;
+  transition: all 2s;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 10px;
+margin-left: 5px;
+  border-radius: 7px;
+}
+.navigation a:hover {
+  background-color: rgb(151, 136, 119);
+}
+/* first section */
+section {
+  padding: 100px 150px;
+}
+.main {
+  width: 100%;
+  min-height: 90vh;
+  align-items: center;
+  background: url("bg2.jpg") no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h2 {
+  font-size: 2.5em;
+  color: #847663;
+  font-weight: 500px;
+  margin-top: 40px;
+}
+.main h2 span {
+  font-size: 0.7em;
+  display: inline-block;
+  /* margin-top: 10px; */
+  font-weight: 200px;
+}
+
+.main h3 {
+  font-size: large;
+  font-weight: 500;
+  color: #5ec93d;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.main-btn {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  height: 40px;
+  background-color: #5ec93d;
+  box-shadow: 0 8px 32px 0 rgba(68, 75, 175, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: px solid rgba(255, 255, 255, 0.18);
+  transition: all 1s;
+}
+.main-btn:hover {
+  font-size: larger;
+  width: 160px;
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(44, 55, 218, 0.37);
+}
+.soical-icon a {
+  color: #5ec93d;
+  font-size: 1.1rem;
+  padding-left: 6px;
+  padding-top: 20px;
+}
+.soical-icon a :hover {
+  box-shadow: 0 8px 32px 0 rgba(44, 55, 218, 0.37);
+}
+
+/* second section (skills section) */
+.skills {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.ski1 {
+  font-weight: bold;
+  color: #5ec93d;
+  font-size: 35px;
+  display: inline-block;
+  border-top: 3px solid #9d8c76;
+  border-left: 3px solid #9d8c76;
+  border-radius: 5px;
+  padding: 5px;
+
+  /* border: 2px 0 0 0; */
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  transition: all 1s;
+}
+.ski1:hover {
+  letter-spacing: 3px;
+}
+
+.myskills {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.computer {
+  color: #5ec93d;
+  font-size: 50px !important;
+  font-weight: 100px;
+  text-align: center;
+}
+
+.card-prog {
+  margin: 10px;
+  padding: 20px;
+  width: 25%;
+  box-shadow: 5px 5px 10px 0 #e4e0db;
+
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.para-star span i {
+  color: rgb(28, 235, 28);
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.card-prog:hover {
+  box-shadow: 0 8px 32px 0 #9d8c76;
+
+}
+/* third section  imges section*/
+
+
+#imgsild {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+
+}
+#viewmore {
+  all: unset;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  width: 150px;
+  height: 50px;
+  display: block;
+  border-radius: 10px;
+  border: 0px soild rgb(213, 193, 193);
+  background-color: #5ec93d;
+  color: #fff;
+  font-size: larger;
+  margin-top: 30px;
+  text-transform: capitalize;
+  transition: all 2s;
+}
+#viewmore:hover {
+  font-size: larger;
+  width: 160px;
+  cursor: pointer;
+  box-shadow: 0 8px 32px 0 rgba(44, 55, 218, 0.37);
+}
+/* edcation section */
+
+.edcation {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* Fifth section */
+
+.column-2a {
+  margin: 0;
+  padding: 0;
+  width: 45%;
+  height: 120vh;
+  background-color: white;
+}
+/* footer */
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #9d8c76;
+  color: rgb(255, 255, 255);
+}
+.footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+@media  (max-width:750px)   {
+  .logo{
+    position: relative;
+   top: -10px;
+   right:50px;
+  }
+   .navigation a{
+   display: none; 
+   border: 0px solid rgb(244, 235, 235)  !important;
+   font-size: x-small;
+ 
+  }
+  #eye {
+  position: absolute;
+display: inline;
+ top: 30px;
+ right: 20px;
+
+  }
+
+.myskills{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.card-prog{
+  width: 300px;
+ 
+}
+.main {
+  padding-left:15px;
+}
+.main h2,.ski1{
+  font-size: 1rem;
+}
+
+.main-btn{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 15px;
+}
+.main-btn:hover{
+  width: 100px;
+  height: 40px;
+  font-size: 22px;
+}
+.soical-icon  a i  {
+  font-size: 20px;
+}
+#project-section h1{
+  font-size:25px;
+}
+
+
+#imgsild{
+
+ width: 390px;
+ position: relative;
+ right: 130px;
+ top: 10px;
+
+}
+
+#viewmore{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+#viewmore:hover{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.edcation{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+footer{
+  width: 100%;
+}
+
+.column-2a {
+height: 130vh;
+}
+
+tr td {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
